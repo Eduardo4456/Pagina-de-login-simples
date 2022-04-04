@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2f4f4f;
+}
+
+form {
+    background-color: white;
+    max-width: 500px;
+    width: 60%;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+}
+
+form h3 {
+    text-align: center;
+    color: #2f4f4f;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+form input[type=text],
+form input[type=password] {
+    width: 220px;
+    height: 40px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    margin: 10px 0;
+}
+
+form input[type=submit] {
+    width: 50%;
+    height: 30px;
+    cursor: pointer;
+    background-color: #2f4f4f;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+}
+
+form input[type=date] {
+    width: 220px;
+    height: 40px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    margin: 10px 0;
+}
+
+form imput[type=submit]:hover {
+    background-color: #0e1111;
+}
+
+.criar {
+    font-family: 'Roboto', sans-serif;
+    color: #2f4f4f;
+}
